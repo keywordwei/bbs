@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#forum-message{
+    font-size: 20px;
+    color: orange;
+    width: 370px;
+    margin: 100px auto;
+}
+#forum-message input{
+    width: 308px;
+    height: 28px;
+}
+#forum-message input,#forum-message textarea,#forum-message .release-btn{
+    outline: none;
+    border: 1px solid orange;
+}
+#forum-message .release-btn{
+    text-align: center;
+    width: 100px;
+    background-color: orange;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-top: 20px;
+}
+.post-fail{
+    font-size: 20px;
+    color: orange;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.post-error{
+    font-size: 20px;
+    color: red;
+}
